@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+.banner{
+  background-color: brown;
+}
+
+.navbar{
+
+  width: 85%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 12px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500%;
+  font-family: sans-serif;
+}
+
+ul li a:hover{
+  color: white;
+}
+
+
+.hero-section{
+    background-color: rgb(21, 20, 20);
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero{
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 10rem;
+    background-color: orangered;
+    animation-name: example;
+    animation-duration: 30s;
+    margin-left: 12rem;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75% {background-color: green;}
+    100% {background-color: gold;}
+  }
+
+  .ani{
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 5rem;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-right: 12rem;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+
+  .photo{
+    height: 12rem;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: center;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  gap: 12rem;
+  }
+
+  .picture{
+    gap: 12rem;
+  }
+
+img{
+  width: 10rem;
+  height: 10;
+  gap: 12rem;
+  
+  
+}
